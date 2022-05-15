@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import os, json
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] ='*m)y@12s#4e3@c$ret'
+app.config['SECRET_KEY'] ='*m%y@12s#4e3@c$ret'
 
 
 @app.route('/screen2', methods = ['GET','POST'])
